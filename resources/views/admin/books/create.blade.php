@@ -23,7 +23,7 @@
 
                 <form action="{{ route('admin.books.store') }}" method="POST">
                     @csrf
-                    @method('post')
+                    @method('put')
 
                     <div class="mb-3">
                         <label for="title" class="form-label" >Titolo</label>

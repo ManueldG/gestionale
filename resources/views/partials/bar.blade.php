@@ -12,7 +12,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('admin.book.index') }}">libri</a>
+              <a class="nav-link" href="{{ route('admin.books.index') }}">libri</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">media</a>

@@ -26,6 +26,9 @@
         @include('partials.bar')
 
         <main class="py-4">
+            <div id="example">
+
+            </div>
             @yield('content')
         </main>
     </div>
